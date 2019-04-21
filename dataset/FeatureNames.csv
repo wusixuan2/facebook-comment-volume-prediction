@@ -1,0 +1,55 @@
+position,tag,feature,data_type,category ,description
+1,1†,Page Popularity Likes†,Decimal Encoding†,Page feature†,Defines the popularity or support for the source of the document.†
+2,2†,Page Checkins†,Decimal Encoding†,Page feature†,"Describes how many individuals so far visited this place. This feature is only associated with the places eg:some institution, place, theater etc.†"
+3,3†,Page Talking About†,Decimal Encoding†,Page feature†,"Defines the daily interest of individuals towards source of the document/ Post. The people who actually come back to the page, after liking the page. This include activities such as comments, likes to a post, shares, etc by visitors to the page.†"
+4,4†,Page Category†,Value Encoding†,Page feature†,"Defines the category of the source of the document eg: place, institution, brand etc.†"
+5,5 - 29†,CC1 Min,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+6,5 - 29†,CC1 Max,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+7,5 - 29†,CC1 Avg,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+8,5 - 29†,CC1 Median,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+9,5 - 29†,CC1 Std,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+10,5 - 29†,CC2 Min,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+11,5 - 29†,CC2 Max,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+12,5 - 29†,CC2 Avg,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+13,5 - 29†,CC2 Median,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+14,5 - 29†,CC2 Std,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+15,5 - 29†,CC3 Min,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+16,5 - 29†,CC3 Max,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+17,5 - 29†,CC3 Avg,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+18,5 - 29†,CC3 Median,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+19,5 - 29†,CC3 Std,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+20,5 - 29†,CC4 Min,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+21,5 - 29†,CC4 Max,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+22,5 - 29†,CC4 Avg,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+23,5 - 29†,CC4 Median,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+24,5 - 29†,CC4 Std,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+25,5 - 29†,CC5 Min,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+26,5 - 29†,CC5 Max,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+27,5 - 29†,CC5 Avg,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+28,5 - 29†,CC5 Median,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+29,5 - 29†,CC5 Std,Decimal Encoding†,Derived feature†,"These features are aggregated by page, by calculating min, max, average, median and standard deviation of essential features.†"
+30,30†,CC1†,Decimal Encoding†,Essential feature†,The total number of comments before selected base date/time.†
+31,31†,CC2†,Decimal Encoding†,Essential feature†,"The number of comments in last 24 hours, relative to base date/time.†"
+32,32†,CC3†,Decimal Encoding†,Essential feature†,The number of comments in last 48 to last 24 hours relative to base date/time.†
+33,33†,CC4†,Decimal Encoding†,Essential feature†,The number of comments in the first 24 hours after the publication of post but before base date/time.†
+34,34†,CC5†,Decimal Encoding†,Essential feature†,The difference between CC2 and CC3.†
+35,35†,Base Time†,Decimal(0-71) Encoding†,Other feature†,Selected time in order to simulate the scenario.†
+36,36†,Post Length†,Decimal Encoding†,Other feature†,Character count in the post.†
+37,37†,Post Share Count†,Decimal Encoding†,Other feature†,"This features counts the no of shares of the post, that how many peoples had shared this post on to their timeline.†"
+38,38†,Post Promotion Status†,Binary Encoding†,Other feature†,"To reach more people with posts in News Feed, individual promote their post and this features tells that whether the post is promoted(1) or not(0).†"
+39,39†,H Local†,Decimal(0-23) Encoding†,Other feature†,"This describes the H hrs, for which we have the target variable/ comments received.†"
+40,40-46†,Post Published Weekday 40,Binary Encoding†,Weekdays feature†,This represents the day(Sunday...Saturday) on which the post was published.†
+41,40-46†,Post Published Weekday 41,Binary Encoding†,Weekdays feature†,This represents the day(Sunday...Saturday) on which the post was published.†
+42,40-46†,Post Published Weekday 42,Binary Encoding†,Weekdays feature†,This represents the day(Sunday...Saturday) on which the post was published.†
+43,40-46†,Post Published Weekday 43,Binary Encoding†,Weekdays feature†,This represents the day(Sunday...Saturday) on which the post was published.†
+44,40-46†,Post Published Weekday 44,Binary Encoding†,Weekdays feature†,This represents the day(Sunday...Saturday) on which the post was published.†
+45,40-46†,Post Published Weekday 45,Binary Encoding†,Weekdays feature†,This represents the day(Sunday...Saturday) on which the post was published.†
+46,40-46†,Post Published Weekday 46,Binary Encoding†,Weekdays feature†,This represents the day(Sunday...Saturday) on which the post was published.†
+47,47-53†,Base DateTime Weekday 47,Binary Encoding†,Weekdays feature†,This represents the day(Sunday...Saturday) on selected base Date/Time.†
+48,47-53†,Base DateTime Weekday 48,Binary Encoding†,Weekdays feature†,This represents the day(Sunday...Saturday) on selected base Date/Time.†
+49,47-53†,Base DateTime Weekday 49,Binary Encoding†,Weekdays feature†,This represents the day(Sunday...Saturday) on selected base Date/Time.†
+50,47-53†,Base DateTime Weekday 50,Binary Encoding†,Weekdays feature†,This represents the day(Sunday...Saturday) on selected base Date/Time.†
+51,47-53†,Base DateTime Weekday 51,Binary Encoding†,Weekdays feature†,This represents the day(Sunday...Saturday) on selected base Date/Time.†
+52,47-53†,Base DateTime Weekday 52,Binary Encoding†,Weekdays feature†,This represents the day(Sunday...Saturday) on selected base Date/Time.†
+53,47-53†,Base DateTime Weekday† 53,Binary Encoding†,Weekdays feature†,This represents the day(Sunday...Saturday) on selected base Date/Time.†
+54,54†,Target Variable†,Decimal†,Target†,The no of comments in next H hrs(H is given in Feature no 39).
